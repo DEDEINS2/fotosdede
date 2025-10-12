@@ -135,6 +135,8 @@ body::before {
     display: flex;
     align-items: center;
     gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .logo {
@@ -197,6 +199,37 @@ body::before {
     font-weight: 700;
     color: var(--star-color-2);
     text-shadow: 0 0 10px var(--star-color-2);
+}
+
+/* Botão QR Code */
+.qr-btn {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, var(--text-primary), var(--star-color-2));
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 20px rgba(255, 165, 0, 0.4);
+    text-decoration: none;
+}
+
+.qr-btn i {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    transition: all 0.3s ease;
+}
+
+.qr-btn:hover {
+    transform: scale(1.1) rotate(-5deg);
+    box-shadow: 0 6px 25px var(--text-primary);
+}
+
+.qr-btn:hover i {
+    transform: scale(1.1);
 }
 
 /* Botão de Toggle de Tema */
@@ -751,11 +784,49 @@ body.light-theme .theme-toggle .fa-sun {
         text-align: center;
     }
     
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .logo {
+        order: 1;
+        margin-bottom: 0.5rem;
+    }
+    
+    .header-actions {
+        order: 2;
+        gap: 0.8rem;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .qr-btn {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .qr-btn i {
+        font-size: 1.3rem;
+    }
+    
     .theme-toggle {
-        top: 1rem;
-        right: 1rem;
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .photo-counter {
+        padding: 0.7rem 1.2rem;
+        font-size: 1rem;
+    }
+    
+    .photo-counter i {
+        font-size: 1.1rem;
+    }
+    
+    .photo-counter span {
+        font-size: 1.1rem;
     }
     
     .nav {
@@ -802,6 +873,80 @@ body.light-theme .theme-toggle .fa-sun {
 }
 
 @media (max-width: 480px) {
+    .header .container {
+        padding: 1rem 15px;
+    }
+    
+    .header-content {
+        gap: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+    
+    .logo {
+        font-size: 1.3rem;
+    }
+    
+    .logo i {
+        font-size: 1.5rem;
+    }
+    
+    .logo-subtitle {
+        font-size: 0.65rem;
+        letter-spacing: 1px;
+    }
+    
+    .header-actions {
+        gap: 0.6rem;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .qr-btn {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .qr-btn i {
+        font-size: 1.2rem;
+    }
+    
+    .theme-toggle {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .theme-toggle i {
+        font-size: 1.1rem;
+    }
+    
+    .photo-counter {
+        padding: 0.6rem 1rem;
+        font-size: 0.85rem;
+        flex: 0 0 auto;
+        min-width: fit-content;
+    }
+    
+    .photo-counter i {
+        font-size: 0.95rem;
+    }
+    
+    .photo-counter span {
+        font-size: 0.95rem;
+    }
+    
+    .nav {
+        gap: 0.5rem;
+    }
+    
+    .nav-btn {
+        padding: 0.5rem 0.9rem;
+        font-size: 0.85rem;
+    }
+    
+    .nav-btn i {
+        font-size: 0.9rem;
+    }
+    
     .gallery {
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -813,27 +958,62 @@ body.light-theme .theme-toggle .fa-sun {
         gap: 0.8rem;
         grid-auto-rows: 150px;
     }
-    
-    .nav-btn {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.8rem;
+}
+
+@media (max-width: 380px) {
+    .header .container {
+        padding: 0.8rem 10px;
     }
     
     .logo {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     
     .logo i {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
     
+    .logo-subtitle {
+        font-size: 0.6rem;
+    }
+    
+    .header-actions {
+        gap: 0.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .qr-btn,
     .theme-toggle {
         width: 40px;
         height: 40px;
     }
     
-    .theme-toggle i {
+    .qr-btn i {
         font-size: 1.1rem;
+    }
+    
+    .theme-toggle i {
+        font-size: 1rem;
+    }
+    
+    .photo-counter {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .photo-counter i {
+        font-size: 0.9rem;
+    }
+    
+    .photo-counter span {
+        font-size: 0.9rem;
+    }
+    
+    .nav-btn {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.8rem;
     }
 }
 
