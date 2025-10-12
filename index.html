@@ -11,21 +11,60 @@
 <body>
     <header class="header">
         <div class="container">
-            <h1 class="logo">
-                <i class="fas fa-camera"></i>
-                Meu Álbum
-            </h1>
+            <div class="header-content">
+                <h1 class="logo">
+                    <i class="fas fa-camera-retro"></i>
+                    <span class="logo-text">
+                        Meu Álbum de Memórias
+                        <span class="logo-subtitle">✨ Momentos Inesquecíveis ✨</span>
+                    </span>
+                </h1>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="themeToggle" title="Alternar tema">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <div class="photo-counter">
+                        <i class="fas fa-images"></i>
+                        <span id="photoCount">84</span> fotos
+                    </div>
+                </div>
+            </div>
             <nav class="nav">
-                <button class="nav-btn active" data-filter="all">Todas</button>
-                <button class="nav-btn" data-filter="viagem">Viagens</button>
-                <button class="nav-btn" data-filter="preferidas">Fotos Preferidas</button>
+                <button class="nav-btn active" data-filter="all">
+                    <i class="fas fa-border-all"></i> Todas
+                </button>
+                <button class="nav-btn" data-filter="viagem">
+                    <i class="fas fa-plane"></i> Viagens
+                </button>
+                <button class="nav-btn" data-filter="preferidas">
+                    <i class="fas fa-heart"></i> Preferidas
+                </button>
             </nav>
         </div>
     </header>
 
     <main class="main">
         <div class="container">
-            <div class="gallery" id="gallery">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Buscar nas memórias...">
+                <button class="clear-search" id="clearSearch" style="display: none;">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="gallery-header">
+                <h2 class="gallery-title" id="galleryTitle">Todas as Fotos</h2>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid" title="Visualizar em grade">
+                        <i class="fas fa-th"></i>
+                    </button>
+                    <button class="view-btn" data-view="masonry" title="Visualizar em mosaico">
+                        <i class="fas fa-th-large"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="gallery grid-view" id="gallery">
                 <!-- As fotos serão carregadas dinamicamente via JavaScript -->
             </div>
         </div>
