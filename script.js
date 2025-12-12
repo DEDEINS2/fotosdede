@@ -543,6 +543,14 @@ const photos = [
         date: "2024-03-05"
     },
     {
+        id: 66,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025 com a sosia da neneim kkkkk",
+        image: "fotos/foto66.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
         id: 67,
         title: "exposição van gogh com a neneim em SP", // TODO: Adicionar título da foto67.jpg
         description: "exposição van gogh com a neneim em SP", // TODO: Adicionar descrição da foto67.jpg
@@ -690,6 +698,247 @@ const photos = [
         category: "preferidas",
         date: "2024-03-23",
         isFavorite: true
+    },
+    // Fotos 85-114: Viagem em Monte Verde MG
+    {
+        id: 85,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto85.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 86,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto86.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 87,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto87.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 88,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto88.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 89,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto89.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 90,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto90.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 91,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto91.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 92,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto92.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 93,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto93.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 94,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto94.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 95,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto95.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 96,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto96.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 97,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto97.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 98,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto98.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 99,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto99.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 100,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto100.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 101,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto101.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 102,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto102.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 103,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto103.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 104,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto104.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 105,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto105.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 106,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto106.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 107,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto107.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 108,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto108.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 109,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto109.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 110,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto110.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 111,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto111.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 112,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto112.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 113,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto113.jpg",
+        category: "viagem",
+        date: "2025-12-07"
+    },
+    {
+        id: 114,
+        title: "Mais uma viagem dos sonhos!",
+        description: "Mais uma viagem dos sonhos! em Monte Verde MG Dia 07/12/2025",
+        image: "fotos/foto114.jpg",
+        category: "viagem",
+        date: "2025-12-07"
     }
 ];
 
